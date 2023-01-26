@@ -1,0 +1,27 @@
+{
+  "name": "Sigyn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/bot.js",
+  "scripts": {
+    "init": "npm install",
+    "start": "node src/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fazanwolf/Sigyn.git"
+  },
+  "author": "Fazanwolf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fazanwolf/bot-discord/issues"
+  },
+  "homepage": "https://github.com/Fazanwolf/bot-discord#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
