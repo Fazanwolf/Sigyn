@@ -1,5 +1,6 @@
 const register = require('./utils/register');
-const InteractionType = require("./utils/InterractionType");
+const InteractionType = require("./utils/InteractionType");
+const logger = require("./utils/logger");
 const dotenv = require('dotenv');
 dotenv.config();
 
@@ -32,5 +33,6 @@ register.interactions(client, InteractionType.Modal);
 register.events(client);
 
 client.login(process.env.BOT_TOKEN).then(() => {
-    console.log("Login...");
+    logger("bot").info("Login...");
+    console.log();
 });
